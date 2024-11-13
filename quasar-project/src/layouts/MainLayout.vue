@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          The Infinite Improbability Library
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
@@ -28,7 +28,7 @@
         <q-item-label
           header
         >
-          Essential Links
+          Quick MENU !
         </q-item-label>
 
         <EssentialLink
@@ -55,47 +55,47 @@ defineOptions({
 
 const linksList = [
   {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
+    title: 'Home',
+    caption: 'Home Page',
+    icon: 'home',
+    link: '#/'
   },
   {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
+    title: 'Browse books',
+    caption: 'Browse all Books',
+    icon: 'book',
+    link: '#/browseBook'
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    title: 'Search Books',
+    caption: 'Search for books',
+    icon: 'search',
+    link: '#/searchBook'
   },
   {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
+    title: 'About us',
+    caption: 'About The Infinite Improbability Library',
+    icon: 'info',
+    link: '#/aboutUs'
   },
   {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
+    title: 'Find Us',
+    caption: 'Our location HQ',
+    icon: 'location_on',
+    link: '#/location'
   },
   {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
+    title: 'Login',
+    caption: 'Log into your account',
+    icon: 'login',
+    link: '#/login'
   },
   {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
+    title: 'Register',
+    caption: 'Create a Library Account!',
+    icon: 'person_add',
+    link: '#/register'
+  },
 ]
 
 const leftDrawerOpen = ref(false)
