@@ -64,13 +64,13 @@ const linksList = [
     title: 'Browse books',
     caption: 'Browse all Books',
     icon: 'book',
-    link: '#/browseBook'
+    link: '#/browseBooks'
   },
   {
     title: 'Search Books',
     caption: 'Search for books',
     icon: 'search',
-    link: '#/searchBook'
+    link: '#/searchBooks'
   },
   {
     title: 'About us',
@@ -82,19 +82,19 @@ const linksList = [
     title: 'Find Us',
     caption: 'Our location HQ',
     icon: 'location_on',
-    link: '#/location'
+    link: '#/locationPage'
   },
   {
     title: 'Login',
     caption: 'Log into your account',
     icon: 'login',
-    link: '#/login'
+    link: '#/loginPage'
   },
   {
     title: 'Register',
     caption: 'Create a Library Account!',
     icon: 'person_add',
-    link: '#/register'
+    link: '#/registerPage'
   },
 ]
 
