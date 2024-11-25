@@ -1,4 +1,5 @@
 <template>
+  <q-page class="flex flex-center">
     <q-card dark bordered class="main">
       <q-card-section>
         <q-img src="./../assets/about_photo.png">
@@ -9,6 +10,7 @@
         {{ aboutUs }}
       </q-card-section>
     </q-card>
+  </q-page>
 </template>
 
 <script>

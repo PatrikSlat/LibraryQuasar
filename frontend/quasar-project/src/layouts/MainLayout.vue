@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="lHh Lpr lFf" class="body">
     <q-header elevated>
       <q-toolbar>
         <q-btn
@@ -11,11 +11,12 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title>
-          The Infinite Improbability Library
+        <q-toolbar-title class="header-center"> 
+        <img src="./../assets/logo.png" class="logo">
+        <div class="text-center">
+          <div>The Infinite Improbability Library</div>
+        </div>
         </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
@@ -105,3 +106,37 @@ function toggleLeftDrawer () {
   leftDrawerOpen.value = !leftDrawerOpen.value
 }
 </script>
+
+<style>
+.logo {
+  width: auto;  /* Ensure the width is automatic based on the image */
+  max-width: 150px;  /* Limit the maximum size of the logo */
+  height: auto;  /* Maintain aspect ratio */
+  margin-right: 1rem; /* Optional: Add some space between the logo and text */
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .logo {
+    max-width: 100px;  /* Reduce the logo size on smaller screens */
+  }
+}
+
+.text-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-center{
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  gap: 2%;
+  padding: 0.5%;
+}
+
+.body{
+  background-color: #4F6B3B;
+}
+</style>

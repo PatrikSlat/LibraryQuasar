@@ -1,9 +1,10 @@
 <template>
   <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      style="width: 200px; height: 200px"
-    >
+    <q-card>
+      <q-card-section>
+    Welcome to this Quasar-Express-Vue-MySQL project
+      </q-card-section>
+    </q-card>
   </q-page>
 </template>
 
