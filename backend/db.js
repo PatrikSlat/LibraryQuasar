@@ -7,7 +7,7 @@ const connection = mysql.createConnection({
     host : "ucka.veleri.hr",
     user : "pslat",
     password : process.env.PASSWORD,
-    databse : "pslat"
+    database : "pslat"
 })
 
 //Connection//
@@ -17,3 +17,5 @@ connection.connect((err) => {
     }
     console.log("Connected to Database")
 });
+
+module.exports = connection

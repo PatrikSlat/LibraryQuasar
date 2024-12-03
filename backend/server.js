@@ -16,5 +16,5 @@ app.use(bodyParser.json());
 app.use("/api/books", booksRouter)
 
 app.listen(PORT, ()=> {
-    console.log(`Server up on https://localhost:${PORT}`)
+    console.log(`Server up on http://localhost:${PORT}`)
 })
